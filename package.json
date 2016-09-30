@@ -1,0 +1,28 @@
+{
+  "name": "docker-workflow-test",
+  "version": "0.0.0",
+  "description": "A test setup of a docker node dev/prod env",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirgallifrey/docker-workflow-test.git"
+  },
+  "author": "Adilson Schmitt Junior",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/sirgallifrey/docker-workflow-test/issues"
+  },
+  "homepage": "https://github.com/sirgallifrey/docker-workflow-test#readme",
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "hoek": "^4.1.0",
+    "mongodb": "^2.2.10"
+  }
+}
